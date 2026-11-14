@@ -1,14 +1,72 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>БРИЗУМ — фильтры для приточной вентиляции</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>БРИЗУМ.13 — Фильтр HEPA H13 для Ballu ONEAIR ASP-100 (http://brizum.ru/)</title>
+  <meta name="description" content="Сменный фильтр тонкой очистки БРИЗУМ HEPA H13 (аналог FB-H13-1) для приточного очистителя Ballu ONEAIR ASP-100. Точная посадка 157x185x25 мм." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root { --bg: #EDF1F6; --surface: #DFE5EE; --ink: #0E172A; --muted: #4B5970; --accent: #1849D6; --accent-ink: #FFFFFF; --line: #C6D0DF; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Manrope', sans-serif; background: var(--bg); color: var(--ink); line-height: 1.5; }
+    .mono { font-family: 'JetBrains Mono', monospace; font-variant-numeric: tabular-nums; }
+    .container { max-width: 1120px; margin: 0 auto; padding: 0 24px; }
+    header { border-bottom: 1px solid var(--line); padding: 18px 0; }
+    .nav { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+    .brand { font-weight: 800; font-size: 20px; letter-spacing: -0.03em; }
+    .btn { display: inline-block; padding: 12px 20px; font-weight: 700; font-size: 13px; text-decoration: none; cursor: pointer; border: 1px solid var(--ink); }
+    .btn-accent { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+    .btn-dark { background: var(--ink); color: var(--bg); }
+    .hero { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 40px; padding: 56px 0; border-bottom: 1px solid var(--line); align-items: center; }
+    h1 { font-size: clamp(32px, 4.5vw, 52px); line-height: 1.06; letter-spacing: -0.03em; font-weight: 800; margin: 14px 0 20px; }
+    .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); border-bottom: 1px solid var(--line); }
+    .cell { padding: 28px 24px; border-right: 1px solid var(--line); }
+    .cell:last-child { border-right: none; }
+    .spec-box { background: var(--surface); border: 1px solid var(--line); padding: 28px; }
+    .row { display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid var(--line); font-size: 14px; }
+    footer { padding: 28px 0; font-size: 12px; color: var(--muted); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+    @media (max-width: 820px) { .hero, .grid-3 { grid-template-columns: 1fr; } .cell { border-right: none; border-bottom: 1px solid var(--line); } }
+  </style>
 </head>
 <body>
-  <h1>БРИЗУМ</h1>
-  <p>Фильтры для приточной вентиляции.</p>
-  <p>Сайт готовится к запуску.</p>
+  <header>
+    <div class="container nav">
+      <div class="brand">БРИЗУМ.13</div>
+      <div class="mono" style="font-size:12px;color:var(--muted);">HEPA H13 · BALLU ONEAIR ASP-100</div>
+      <a href="#order" class="btn btn-accent mono">ЗАКАЗАТЬ ФИЛЬТР</a>
+    </div>
+  </header>
+  <main class="container">
+    <section class="hero">
+      <div>
+        <div class="mono" style="font-size:12px;color:var(--muted);">АНАЛОГ FB-H13-1 · СТАНДАРТ EN 1822</div>
+        <h1>Чистый приточный воздух без переплаты за логотип</h1>
+        <p style="color:var(--muted);margin-bottom:28px;max-width:52ch;">Сменный фильтр тонкой очистки БРИЗУМ HEPA H13 для бризера Ballu ONEAIR ASP-100. Точная геометрия 157×185×25 мм, плотный уплотнитель EPDM и вшитый ярлык PULL для замены за 10 секунд.</p>
+        <div style="display:flex;gap:12px;flex-wrap:wrap;" id="order">
+          <a href="#ozon" class="btn btn-accent">Купить на Ozon</a>
+          <a href="#wb" class="btn btn-dark">Купить на Wildberries</a>
+        </div>
+      </div>
+      <div class="spec-box">
+        <div class="mono" style="font-size:11px;color:var(--muted);margin-bottom:12px;">ТЕХНИЧЕСКИЙ ПАСПОРТ ИЗДЕЛИЯ</div>
+        <div class="row"><span>Совместимость</span><strong class="mono">Ballu ONEAIR ASP-100</strong></div>
+        <div class="row"><span>Аналог артикула</span><strong class="mono">FB-H13-1</strong></div>
+        <div class="row"><span>Класс очистки</span><strong class="mono">HEPA H13 (99.95%)</strong></div>
+        <div class="row"><span>Размер кассеты</span><strong class="mono">157 × 185 × 25 мм</strong></div>
+        <div class="row" style="border-bottom:none;"><span>Ресурс работы</span><strong class="mono">6 месяцев</strong></div>
+      </div>
+    </section>
+    <section class="grid-3">
+      <div class="cell"><div class="mono" style="font-size:11px;color:var(--muted);">ШАГ 01</div><h3 style="margin:8px 0;">Извлеките старый</h3><p style="font-size:14px;color:var(--muted);">Откройте крышку ASP-100 и вытяните отработанный фильтр за вшитую ленту PULL.</p></div>
+      <div class="cell"><div class="mono" style="font-size:11px;color:var(--muted);">ШАГ 02</div><h3 style="margin:8px 0;">Установите БРИЗУМ.13</h3><p style="font-size:14px;color:var(--muted);">Направьте стрелку AIR FLOW в сторону помещения. Уплотнитель EPDM исключит щели.</p></div>
+      <div class="cell"><div class="mono" style="font-size:11px;color:var(--muted);">ШАГ 03</div><h3 style="margin:8px 0;">Сбросьте таймер</h3><p style="font-size:14px;color:var(--muted);">Отметьте месяц на торце рамки и зажмите кнопку сброса фильтра на панели бризера на 3 сек.</p></div>
+    </section>
+  </main>
+  <footer class="container mono">
+    <div>БРИЗУМ.13 · http://brizum.ru/ · ООО «БРИЗУМ Фильтрация»</div>
+    <div>Арт. BRZ-ASP100-H13 · Неоригинальный сменный элемент</div>
+  </footer>
 </body>
 </html>
